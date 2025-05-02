@@ -1,0 +1,28 @@
+.form {
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+.input {
+    padding: 5px;
+}
+
+.error {
+    align-self: flex-start;
+    font-size: 10px;
+    color: brown;
+}
